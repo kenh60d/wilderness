@@ -3,7 +3,8 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 
-:root {@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Rock+Salt&display=swap');
+  --nav-hover-link-color: #D4AC0D;
+  :root {@import url('https://fonts.googleapis.com/css2family=Fasthand&display=swap');
   /* change the values below to your colors from your palette */
   --primary-color: #00B4D8   ;
   --secondary-color: #0077B6 ;
@@ -22,7 +23,7 @@ Fonts are separated by a | */
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
   --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
+  --nav-hover-link-color: #D4AC0D;
   --nav-hover-background-color: #396E94;
 }
 
@@ -80,7 +81,6 @@ p {
   width: 25%;
   height: 3em;
 }
-
 .primary {
   background-color: var(--primary-color);
 }
@@ -93,12 +93,10 @@ p {
 .accent2{
   background-color: var(--accent2-color);
 }
-
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
-
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -108,14 +106,12 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
-
 }
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
-
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -124,11 +120,9 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
 .sitemap {
   display: grid;
   justify-content: center;
-
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . home home . ."
@@ -137,9 +131,7 @@ nav a:hover {
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
-
   text-align: center;
-
 }
 .sm-home {
   grid-area: home;
@@ -156,18 +148,15 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-
 .top {
   grid-area: top;
   border-left: 1px solid;
 }
-
 .left {
   grid-area: left;
   border-top: 1px solid;
   border-left: 1px solid;
 }
-
 .right {
   grid-area: right;
   border-top: 1px solid;
