@@ -3,13 +3,13 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 
-  --nav-hover-link-color:#3045E;
-  :root {@import url('https://coolors.co/03045e-0077b6-00b4d8-90e0ef');
+  --nav-hover-link-color:#90e0ef;
+  :root {@import url('https://coolors.co/03045e-0077b6-00b4d8-90e0ef-caf0f8');
   /* change the values below to your colors from your palette */
   --primary-color: #00B4D8   ;
   --secondary-color: #0077B6 ;
-  --accent1-color: #03045E;
-  --accent2-color: #90e0ef;
+  --accent1-color:#03045E;
+  --accent2-color:#90e0ef;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Fasthand";
@@ -19,11 +19,11 @@ Fonts are separated by a | */
   --headline-color-on-white: #00B4D8;  /* headlines on a white background */ 
   --headline-color-on-color: #0077b6; /* headlines on a colored background */ 
   --paragraph-color-on-white: #03045E; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #90e0ef; /* paragraph text on a colored background */ 
   --paragraph-background-color: #90e0ef;  
   --nav-link-color: #0077b6;
   --nav-background-color: #00B4D8;
-  --nav-hover-link-color: white;
+  --nav-hover-link-color: #03045E;
   --nav-hover-background-color:#90e0ef;
 }
 
