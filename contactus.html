@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="site-plan.css">
+</head>
+<body>
+    <a id="content" href="index.html">
+        <img class="logo" src="images/carpe diem.png" alt="Carpe Diem">
+    </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="page2.html">Page 2</a>
+        <a href="site-plan.html">Page 3</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+</header>
+<body>
+    <body>
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li class="button">
+        <button type="submit">Send your message</button>
+        </ul>
+      </form>
+      <script>
+          //get the feedback div element so we can do something with it.
+          const feedbackElement =document.getElementById('feedback');
+          //get the form so we can read what was entered in it.
+          const formElement =document.forms[0];
+          //add a 'listener' to wait for a submission of our form. When that happens run the code below
+          formElement.addEventListener('submit',function(e)){
+              //stop the form from doing the default action.
+              e.preventDefault();
+              //set the contents of our feedback element to a message letting the user know the form was submitted successfully.Notice that we pull the name that entered in the form to personalize the message!
+              feedbackElement.innerHTML ='Hello'+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+              //make the feedback element visible.
+              feedbackElement.style.display ="block";
+              //add a class to move everything down so our message doesn't cover it.
+              document.body.classList.toggle('moveDown');
+          });
+      </script>
+         <div id="feedback"></div> 
+<footer id="salmon rivers_footer">
+    <p>Wilderness Survival Enlightment&copy; 2022-Ken Mccullum</p>
+    <p><a href=site-plan.html> Site Plan</a></p>
+    <p><a href=page2.html></a> Wilderness Survival Tips</p>
+    <p><a href=index.html></a>Natural of Wilderness</p>
+    <div class="social">
+    <a href="https://accounts.snapchat.com" target="_blank">
+        <img src="images/snapchat.png" alt="Snapchat Icon">
+    </a>
+     <a href="https://icloud.com" target="blank">
+        <img src="images/icloud.png" alt="Icloud Icon">
+     </a>
+     <a href="https://accounts.gmail.com" target="blank">
+        <img src="images/gmail.jpeg" alt="Gmail Icon">
+     </a>
