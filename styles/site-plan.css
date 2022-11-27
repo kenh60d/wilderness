@@ -62,7 +62,6 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
-
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-color);
@@ -135,17 +134,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: #0077B6;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #03045E;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color:#00B4D8;
   line-height: 3em;
 }
 .top {
