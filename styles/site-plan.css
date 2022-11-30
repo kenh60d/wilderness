@@ -3,7 +3,7 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 
-  --nav-hover-link-color:#90e0ef;
+  --nav-hover-link-color:white
   :root {@import url('https://coolors.co/03045e-0077b6-00b4d8-90e0ef-caf0f8');
   /* change the values below to your colors from your palette */
   --primary-color: #00B4D8   ;
